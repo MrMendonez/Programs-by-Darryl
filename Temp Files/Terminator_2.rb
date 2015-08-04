@@ -449,7 +449,7 @@ anyKey = gets.chomp
 puts ( "You realize that fucking T-1000 commandeered a police helicopter and is shooting at you." )
 sleep(5)
 
-puts ( "\nMission 5: Kill that annoying T-1000!\n")
+puts ( "\nMission 5: Kill that fucking annoying T-1000!\n")
 puts ( "(Press return to continue.)" )
 anyKey = gets.chomp
 
@@ -481,8 +481,6 @@ if frozenT1000Choice == "1"
 elsif frozenT1000Choice == "2"
 	puts ( "You pull out your gun and shoot him but not before you say 'Hasta la vista baby!'" )
 	sleep(5)
-	puts ( "T-1000 shatters into a billion pieces!!!" )
-	sleep(5)
 	puts ( "\nMission 5: Success")
 	sleep(5)
 	"Oh wait...\n".each_char do |c|
@@ -511,7 +509,7 @@ else
 	exit
 end
 
-puts ( "\nMission 5 Updated: TERMINATE THAT MOTHERFUCKING T-1000!\n")
+puts ( "\nMission 5 Updated: KILL THAT MOTHERFUCKING T-1000!\n")
 puts ( "(Press enter to continue.)" )
 anyKey = gets.chomp	
 
@@ -525,7 +523,7 @@ puts ( "Some great military leader..." )
 sleep(5)
 puts ( "You grab your grenade launcher and load the last grenade in it." )
 sleep(5)
-puts ( "You find the T-1000 fighting Sarah Connor just as she runs out of bullets." )
+puts ( "You find the T-1000 and Sarah Connor is out of bullets." )
 sleep(5)
 puts ( "You blast the T-1000 with your grenade launcher and turn him into a Picasso painting." )
 sleep(5)
@@ -557,7 +555,6 @@ sleep(5)
 puts ( "You are slowly getting lowered into the hot lava " )
 sleep(5)
 puts ( "You look at Sarah and John Connor one last time." )
-sleep(5)
 
 puts ( "\nOptions:")
 puts ( "1. Give them a thumbs up" )
